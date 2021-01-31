@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		660EB53F25C6515500A98EE6 /* example2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example2.cpp; sourceTree = "<group>"; };
 		661B27FA25BFFFF3005E946D /* CPlusTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlusTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		661B27FD25BFFFF3005E946D /* example1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = example1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				661B27FD25BFFFF3005E946D /* example1.cpp */,
+				660EB53F25C6515500A98EE6 /* example2.cpp */,
 			);
 			path = CPlusTest;
 			sourceTree = "<group>";
@@ -88,7 +90,7 @@
 		661B27F225BFFFF3005E946D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					661B27F925BFFFF3005E946D = {
 						CreatedOnToolsVersion = 12.3;
@@ -239,6 +241,7 @@
 		661B280225BFFFF3005E946D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +250,7 @@
 		661B280325BFFFF3005E946D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
